@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- FAVICON is web site   -->
+<link   rel="icon" 
+        href="img/fav/favicon.svg" 
+        type="image/x-icon" />
+
+<link   rel="shortcut icon" 
+        href="img/fav/favicon.svg" 
+        type="image/x-icon" />
+
+<link   rel="apple-touch-icon" 
+        href="img/fav/favicon.svg" 
+        type="image/x-icon" />
+
+
+<!-- shere my web site is facebook -->
+<meta property="og:title" content="Mazen Saad" />
+<!-- | عنوان المقال  -->
+<meta property="og:description" content="Web Developer" />
+<!-- | لكتابة وصف المقال او الصفحة  -->
+<meta property="og:image" content="img/img.png" />
+<!-- | لختيار الصورة للمقال  -->
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<!-- | لحجم الصورة  -->
+<meta property="og:type" content="website" />
+<!-- | لتحديد نوع الصفحة او المقال  -->
+
+
+
+<!-- shere my website is twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<!-- | لمشاركة صورة علي التغريدة في تويتر  -->
+<meta name="twitter:title" content="" />
+<!-- | لتحديد العنوان المنشور  -->
+<meta name="twitter:description" content="" />
+<!-- | لتحديد الوصف اسفل العنوان -->
+<meta name="twitter:image" content="" />
+<!-- | لتحديد الصورة المسار  -->
+<meta name="twitter:site" content="" />
+<!-- | لتحديد حساب صاحب الموقع  -->
+<meta name="twitter:creator" content="" />
+<!-- | لتحديد اسم صاحب الموقع  -->
+
+
+
+<!-- font google online -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+
+
+<!-- font google ofline -->
+
+
+<!-- icons font awesome online -->
+
+
+<!-- icons font awesome ofline -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+
+<!-- my file style web -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reyset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+
+<!-- file medai web site -->
+<link   rel="stylesheet" 
+        href="css/media/mx767.css" 
+        media="(max-width: 767px)" />
+
+<link   rel="stylesheet" 
+        href="css/media/mi768.css" 
+        media="(min-width: 768px)" />
+
+<link   rel="stylesheet" 
+        href="css/media/mx991.css" 
+        media="(max-width: 991px)" />
+
+<link   rel="stylesheet" 
+        href="css/media/mi992.css" 
+        media="(min-width: 992px)" />
+
+<link   rel="stylesheet" 
+        href="css/media/mi1200.css" 
+        media="(min-width: 1200px)" />
+
+<!-- file medai web site -->
+
+
+<!-- name is web site  -->
+<title>Music Player</title>
+
+
+</head>
+
+<body>
+
+
+
+<!--  
+==============================================
+==============================================
+-->
+
+
+<!--  
+==============================================
+==============================================
+-->
+
+<!-- start wrapper -->
+
+    <div class="wrapper">
+        <div class="top-bar">
+            <i class="material-icons">expand_more</i>
+            <span>Now Playing</span>
+            <i class="material-icons">more_horiz</i>
+        </div>
+        <div class="img-area">
+            <img src="" alt="">
+        </div>
+        <div class="song-details">
+            <p class="name"></p>
+            <p class="artist"></p>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar">
+                <audio id="main-audio" src=""></audio>
+            </div>
+            <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+            </div>
+        </div>
+        <div class="controls">
+            <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+            <i id="prev" class="material-icons">skip_previous</i>
+            <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+            </div>
+            <i id="next" class="material-icons">skip_next</i>
+            <i id="more-music" class="material-icons">queue_music</i>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class="list material-icons">queue_music</i>
+                    <span>Music list</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <ul>
+                <!-- here li list are coming from js -->
+            </ul>
+        </div>
+    </div>
+
+<!-- end wrapper -->
+
+<!--  
+==============================================
+==============================================
+-->
+
+
+
+
+
+
+<!-- my files js -->
+    <script src="js/music-list.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
